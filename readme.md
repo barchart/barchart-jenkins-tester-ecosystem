@@ -93,7 +93,7 @@ How do we update the minimal set of project dependencies for a new release? For
 example, when updating `insect`, we only want to update any downstream projects
 to avoid excessive releases.
 
-Possibility: new Maven Versions Plugin goal that takes an artifact ID,
+Possibility: new Maven Versions Plugin option to use-latest-snapshots that 
 walks the dependency tree of the current project, and updates all dependency
 references to the current snapshot for that artifact. It then does the same
 for any affected artifacts, converting any of their dependent projects to
@@ -103,13 +103,14 @@ release?)
 
 Example: if we want to release `insect`, run:
   
-`mvn versions:use-latest-snaphots-cascade
+`mvn versions:use-latest-snaphots
+	-DupdateCascade=true
 	-Dincludes=com.barchart.test.jenkinscascade:insect`
 
 This would do the following steps:
 
 1. Update `ant` and `fly` to use the current snapshot version of `insect`
 2. Update `sparrow`, `salmon`, and `ecosystem` to use the current snapshot versions of `ant` and `fly`
-3. Update `bear`, `cat` and `shark`, and `ecosystem` to use the current snapshot versions for `sparrow` and `salmon`
+3. Update `bear`, `cat`, `shark`, and `ecosystem` to use the current snapshot versions for `sparrow` and `salmon`
 4. Update `ecosystem` to use the current snapshots for `bear`, `cat`, and`shark`
 5. Voila, only the necessary projects have been updated, and `ecosystem` is ready for a cascade build.
