@@ -1,0 +1,19 @@
+#
+# Eclipse metadata.
+#
+.project
+.classpath
+.settings/
+
+#
+# Eclipse/Maven build folders.
+#
+bin/
+target/
+
+#
+# Maven release metadata
+# 
+release.properties
+pom.xml.*
+
