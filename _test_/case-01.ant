@@ -1,0 +1,39 @@
+<!--
+	Ensure snapshot parent version on "ant".
+-->
+<project default="maven" basedir="../ant">
+
+	<echo message="basedir : ${basedir}" />
+
+	<target name="maven">
+
+		<condition property="executable" value="mvn">
+			<os family="unix" />
+		</condition>
+		<condition property="executable" value="mvn.bat">
+			<os family="windows" />
+		</condition>
+
+		<exec executable="git">
+
+			<arg value="pull" />
+
+		</exec>
+
+		<exec executable="${executable}">
+
+			<arg value="versions:update-parent" />
+			<arg value="--define" />
+			<arg value="allowSnapshots=true" />
+
+			<arg value="scm:checkin" />
+			<arg value="--define" />
+			<arg value="includes=**/pom.xml" />
+			<arg value="--define" />
+			<arg value="message=case-01" />
+
+		</exec>
+
+	</target>
+
+</project>

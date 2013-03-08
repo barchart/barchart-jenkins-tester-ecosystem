@@ -1,0 +1,71 @@
+<!--
+	Ensure snapshot version on "ant" in "zoo".
+-->
+<project default="maven" basedir="../.">
+
+	<echo message="basedir : ${basedir}" />
+
+	<target name="maven">
+
+		<condition property="executable" value="mvn">
+			<os family="unix" />
+		</condition>
+		<condition property="executable" value="mvn.bat">
+			<os family="windows" />
+		</condition>
+
+		<exec executable="git">
+
+			<arg value="pull" />
+
+		</exec>
+
+		<exec executable="${executable}" dir="ant">
+
+			<arg value="release:prepare" />
+			<arg value="release:perform" />
+
+			<arg value="--define" />
+			<arg value="resume=false" />
+
+			<arg value="--define" />
+			<arg value="localCheckout=true" />
+
+		</exec>
+		<exec executable="${executable}" dir="ant">
+
+			<arg value="clean" />
+			<arg value="deploy" />
+
+		</exec>
+
+		<exec executable="${executable}" dir="zoo">
+
+			<arg value="versions:use-latest-versions" />
+
+			<arg value="--define" />
+			<arg value="allowSnapshots=true" />
+
+			<arg value="--define" />
+			<arg value="allowMajorUpdates=false" />
+			<arg value="--define" />
+			<arg value="allowMinorUpdates=false" />
+			<arg value="--define" />
+			<arg value="allowIncrementalUpdates=true" />
+
+		</exec>
+		<exec executable="${executable}" dir="zoo">
+
+			<arg value="scm:checkin" />
+
+			<arg value="--define" />
+			<arg value="includes=**/pom.xml" />
+
+			<arg value="--define" />
+			<arg value="message=case-02" />
+
+		</exec>
+
+	</target>
+
+</project>
