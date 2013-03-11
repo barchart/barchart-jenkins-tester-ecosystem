@@ -1,0 +1,72 @@
+<!--
+	Ensure everything is a snapshot.
+-->
+<project default="maven" basedir="../.">
+
+	<echo message="basedir : ${basedir}" />
+
+	<target name="maven">
+
+		<condition property="executable" value="mvn">
+			<os family="unix" />
+		</condition>
+		<condition property="executable" value="mvn.bat">
+			<os family="windows" />
+		</condition>
+
+		<!-- update SCM -->
+		<exec executable="git">
+
+			<arg value="pull" />
+
+		</exec>
+
+		<!-- deploy snapshots -->
+		<exec executable="${executable}">
+
+			<arg value="clean" />
+			<arg value="deploy" />
+
+		</exec>
+
+		<!-- update to snapshots -->
+		<exec executable="${executable}">
+
+			<arg value="versions:update-parent" />
+
+			<arg value="versions:use-latest-versions" />
+
+			<arg value="--define" />
+			<arg value="excludeReactor=false" />
+
+			<arg value="--define" />
+			<arg value="generateBackupPoms=false" />
+
+			<arg value="--define" />
+			<arg value="allowSnapshots=true" />
+
+			<arg value="--define" />
+			<arg value="allowMajorUpdates=false" />
+			<arg value="--define" />
+			<arg value="allowMinorUpdates=false" />
+			<arg value="--define" />
+			<arg value="allowIncrementalUpdates=true" />
+
+		</exec>
+
+		<!-- commit version changes -->
+		<exec executable="${executable}">
+
+			<arg value="scm:checkin" />
+
+			<arg value="--define" />
+			<arg value="includes=**/pom.xml" />
+
+			<arg value="--define" />
+			<arg value="message=case-09" />
+
+		</exec>
+
+	</target>
+
+</project>
