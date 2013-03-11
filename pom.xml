@@ -3,25 +3,57 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--
-	CONVENIENCE PROJECT ONLY FOR EASY LOCAL MAVEN BUILDS.
-	NOT A RELEASABLE PROJECT, HAS NO ASSOCIATED JENKINS BUILD.
-	-->
+	<!-- CONVENIENCE PROJECT ONLY FOR EASY LOCAL MAVEN BUILDS. NOT A RELEASABLE 
+		PROJECT, PROVIDES LAYOUT PROJECT. -->
 
 	<groupId>com.barchart.test</groupId>
 	<artifactId>barchart-jenkins-tester-ecosystem</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.0.0</version>
 	<packaging>pom</packaging>
 
 	<modules>
+
 		<module>archon</module>
-		<module>animal</module>
-		<module>plant</module>
+
+		<!-- <module>animal</module> -->
+		<module>animal/archon</module>
+
+		<!-- <module>animal/bird</module> -->
+		<module>animal/bird/robin</module>
+		<module>animal/bird/sparrow</module>
+
+		<!-- <module>animal/bug</module> -->
+		<module>animal/bug/ant</module>
+		<module>animal/bug/fly</module>
+		<module>animal/bug/insect</module>
+		<module>animal/bug/worm</module>
+
+		<!-- <module>animal/fish</module> -->
+		<module>animal/fish/salmon</module>
+		<module>animal/fish/shark</module>
+
+		<!-- <module>animal/mammal</module> -->
+		<module>animal/mammal/archon</module>
+		<module>animal/mammal/bear</module>
+		<module>animal/mammal/cat</module>
+		<module>animal/mammal/cow</module>
+		<module>animal/mammal/human</module>
+
+		<!-- <module>plant</module> -->
+		<module>plant/archon</module>
+		<module>plant/berry</module>
+		<module>plant/corn</module>
+		<module>plant/grass</module>
+		<module>plant/tree</module>
+
+		<!-- <module>resource</module> -->
 		<module>resource/air</module>
-		<module>resource/water</module>
 		<module>resource/dirt</module>
 		<module>resource/sunlight</module>
+		<module>resource/water</module>
+
 		<module>ecosystem</module>
+
 	</modules>
 
 	<build>

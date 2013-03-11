@@ -20,9 +20,9 @@
 	<packaging>pom</packaging>
 
 	<scm>
-		<url>https://github.com/barchart/barchart-jenkins-tester</url>
-		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester.git</developerConnection>
+		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
+		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
 		<tag>master</tag>
 	</scm>
 
