@@ -11,7 +11,7 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<artifactId>salmon</artifactId>
 	<packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>salmon-1.0.0</tag>
+		<tag>master</tag>
 	</scm>
 
 	<dependencies>
