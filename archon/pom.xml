@@ -8,16 +8,16 @@
 	<packaging>pom</packaging>
 
 	<scm>
-		<url>https://github.com/barchart/barchart-jenkins-tester</url>
-		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester.git</developerConnection>
+		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
+		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
 		<tag>master</tag>
 	</scm>
 
 	<properties>
 
 		<!-- Tester releases and snapshots. -->
-		<!-- See how to setup: https://github.com/barchart/barchart-jenkins-tester/wiki -->
+		<!-- See how to setup: https://github.com/barchart/barchart-jenkins-tester-ecosystem/wiki -->
 		<!-- <testerRepoID>barchart-jenkins-tester</testerRepoID> -->
 		<!-- <testerRepoURL>s3://${testerRepoID}</testerRepoURL> -->
 
