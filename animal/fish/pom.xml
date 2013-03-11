@@ -3,9 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--
-	RELEASABLE PARENT, SUBMODULES DO NOT HAVE ASSOCIATED JENKINS BUILDS.
-	-->
+	<!-- RELEASABLE PARENT, SUBMODULES DO NOT HAVE ASSOCIATED JENKINS BUILDS. -->
 
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
@@ -26,8 +24,8 @@
 	</scm>
 
 	<modules>
-		<module>salmon</module>
-		<module>shark</module>
+		<!-- <module>salmon</module> -->
+		<!-- <module>shark</module> -->
 	</modules>
 
 	<dependencies>
