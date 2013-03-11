@@ -14,6 +14,7 @@
 		<relativePath>../</relativePath>
 	</parent>
 
+	<version>1.0.0-SNAPSHOT</version>
 	<artifactId>shark</artifactId>
 	<packaging>jar</packaging>
 
