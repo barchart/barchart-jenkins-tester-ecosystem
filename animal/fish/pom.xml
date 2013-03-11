@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>animal-archon</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<relativePath>../archon/</relativePath>
 	</parent>
 
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>water</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.0</version>
 		</dependency>
 
 	</dependencies>
