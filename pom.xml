@@ -28,7 +28,8 @@
 		<module>animal/bug/insect</module>
 		<module>animal/bug/worm</module>
 
-		<!-- <module>animal/fish</module> -->
+		<!-- LAYOUT BUG: fish is JAR and should have not sub folders. -->
+		<module>animal/fish</module>
 		<module>animal/fish/salmon</module>
 		<module>animal/fish/shark</module>
 
