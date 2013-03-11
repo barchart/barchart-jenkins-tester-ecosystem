@@ -9,7 +9,7 @@
 	-->
 
 	<groupId>com.barchart.test</groupId>
-	<artifactId>jenkins-cascade-tester</artifactId>
+	<artifactId>barchart-jenkins-tester-ecosystem</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
