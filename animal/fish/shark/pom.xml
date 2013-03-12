@@ -9,7 +9,7 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<version>1.0.4</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<artifactId>shark</artifactId>
 	<packaging>jar</packaging>
 
@@ -17,7 +17,7 @@
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>shark-1.0.4</tag>
+		<tag>master</tag>
 	</scm>
 
 	<dependencies>
