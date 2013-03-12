@@ -10,14 +10,14 @@
 	</parent>
 
 	<artifactId>tree</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<scm>
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>tree-1.0.4</tag>
+		<tag>master</tag>
 	</scm>
 
 </project>
