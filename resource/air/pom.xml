@@ -10,14 +10,14 @@
 	</parent>
 
 	<artifactId>air</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<scm>
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>master</tag>
+		<tag>air-1.0.1</tag>
 	</scm>
 
 </project>
