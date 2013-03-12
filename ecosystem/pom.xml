@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>archon</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../archon/</relativePath>
 	</parent>
 
@@ -26,43 +26,43 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>air</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>water</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>dirt</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>sunlight</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>human</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>bear</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>cow</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -86,7 +86,7 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>salmon</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -104,7 +104,7 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>fly</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -134,7 +134,7 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>corn</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>

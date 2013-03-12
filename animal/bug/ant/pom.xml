@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>archon</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../../../archon/</relativePath>
 	</parent>
 
@@ -26,13 +26,13 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>insect</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>dirt</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
