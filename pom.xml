@@ -3,8 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!-- CONVENIENCE PROJECT ONLY FOR EASY LOCAL MAVEN BUILDS. NOT A RELEASABLE 
-		PROJECT, PROVIDES LAYOUT PROJECT. -->
+	<!-- LAYOUT PROJECT -->
 
 	<groupId>com.barchart.test</groupId>
 	<artifactId>barchart-jenkins-tester-ecosystem</artifactId>
@@ -17,8 +16,7 @@
 
 		<!-- <module>animal</module> -->
 		<module>animal/archon</module>
-
-		<!-- <module>animal/bird</module> -->
+		<module>animal/bird</module>
 		<module>animal/bird/robin</module>
 		<module>animal/bird/sparrow</module>
 
@@ -28,7 +26,6 @@
 		<module>animal/bug/insect</module>
 		<module>animal/bug/worm</module>
 
-		<!-- LAYOUT BUG: fish is JAR and should have no sub folders. -->
 		<module>animal/fish</module>
 		<module>animal/fish/salmon</module>
 		<module>animal/fish/shark</module>
@@ -58,10 +55,8 @@
 	</modules>
 
 	<build>
-
-		<!-- Do not deploy import helper. -->
+		<!-- Do not deploy folder project. -->
 		<plugins>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
@@ -70,9 +65,7 @@
 					<skip>true</skip>
 				</configuration>
 			</plugin>
-
 		</plugins>
-
 	</build>
 
 </project>

@@ -3,10 +3,6 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--
-	RELEASABLE PROJECT WITH ASSOCIATED JENKINS BUILD
-	-->
-
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>mammal-archon</artifactId>
