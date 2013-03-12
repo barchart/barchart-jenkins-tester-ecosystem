@@ -23,6 +23,7 @@
 
 		<!-- <module>animal</module> -->
 		<module>animal/archon</module>
+		
 		<module>animal/bird</module>
 		<module>animal/bird/robin</module>
 		<module>animal/bird/sparrow</module>
