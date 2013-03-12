@@ -2,8 +2,6 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!-- ONLY RELEASED AS PART OF PARENT PROJECT, NO ASSOCIATED JENKINS BUILD -->
-
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>fish</artifactId>
