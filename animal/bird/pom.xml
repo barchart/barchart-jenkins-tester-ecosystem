@@ -3,14 +3,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--
-	RELEASABLE PARENT, SUBMODULES DO NOT NOT ASSOCIATED JENKINS BUILDS.
-	-->
-
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>animal-archon</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../archon/</relativePath>
 	</parent>
 
@@ -24,10 +20,5 @@
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
 		<tag>master</tag>
 	</scm>
-
-	<modules>
-		<module>sparrow</module>
-		<module>robin</module>
-	</modules>
 
 </project>

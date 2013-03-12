@@ -1,13 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-
-	<!-- RELEASABLE PARENT, SUBMODULES DO NOT HAVE ASSOCIATED JENKINS BUILDS. -->
 
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>animal-archon</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../archon/</relativePath>
 	</parent>
 
@@ -22,17 +21,12 @@
 		<tag>master</tag>
 	</scm>
 
-	<modules>
-		<!-- <module>salmon</module> -->
-		<!-- <module>shark</module> -->
-	</modules>
-
 	<dependencies>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>water</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>

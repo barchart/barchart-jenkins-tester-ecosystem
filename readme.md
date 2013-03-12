@@ -1,6 +1,8 @@
 Project Structure
 -----------------
 
+NOTE: if artifact version is 0.0.0 it means it is non-build/import project.
+
 *Legend:*
 ```
 *  - Releasable, has associated Jenkins build job

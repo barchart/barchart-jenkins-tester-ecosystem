@@ -2,14 +2,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--
-	RELEASABLE PROJECT WITH ASSOCIATED JENKINS BUILD
-	-->
-
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>archon</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../../../archon/</relativePath>
 	</parent>
 
@@ -29,13 +25,13 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>air</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>water</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>
