@@ -27,6 +27,9 @@
 			<arg value="clean" />
 			<arg value="deploy" />
 
+			<arg value="--define" />
+			<arg value="skipTests" />
+
 		</exec>
 
 		<!-- update to snapshots -->
