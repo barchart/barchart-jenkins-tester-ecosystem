@@ -25,13 +25,13 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>berry</artifactId>
-			<version>1.0.7-SNAPSHOT</version>
+			<version>1.0.7</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>ant</artifactId>
-			<version>1.0.8-SNAPSHOT</version>
+			<version>1.0.8</version>
 		</dependency>
 
 	</dependencies>
