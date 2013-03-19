@@ -4,14 +4,14 @@
 
 	<groupId>com.barchart.test.jenkinscascade</groupId>
 	<artifactId>archon</artifactId>
-	<version>1.0.8</version>
+	<version>1.0.9-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<scm>
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>archon-1.0.8</tag>
+		<tag>master</tag>
 	</scm>
 
 	<properties>
