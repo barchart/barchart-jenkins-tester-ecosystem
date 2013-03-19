@@ -30,6 +30,8 @@
 			<arg value="--define" />
 			<arg value="skipTests" />
 
+			<arg value="--update-snapshots" />
+
 		</exec>
 
 		<!-- update to snapshots -->
@@ -54,6 +56,9 @@
 			<arg value="allowMinorUpdates=false" />
 			<arg value="--define" />
 			<arg value="allowIncrementalUpdates=true" />
+
+			<arg value="--define" />
+			<arg value="includes=com.barchart.test.jenkinscascade:*" />
 
 		</exec>
 
