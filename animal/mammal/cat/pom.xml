@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>mammal-archon</artifactId>
-		<version>1.0.9</version>
+		<version>1.0.10-SNAPSHOT</version>
 		<relativePath>../archon/</relativePath>
 	</parent>
 
@@ -27,13 +27,13 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>sparrow</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.12-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 

@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.barchart.test.jenkinscascade</groupId>
 		<artifactId>archon</artifactId>
-		<version>1.0.8</version>
+		<version>1.0.9-SNAPSHOT</version>
 		<relativePath>../archon/</relativePath>
 	</parent>
 
@@ -25,115 +25,115 @@
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>air</artifactId>
-			<version>1.0.9</version>
+			<version>1.0.10-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>water</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>dirt</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>sunlight</artifactId>
-			<version>1.0.9</version>
+			<version>1.0.10-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>human</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>bear</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>cow</artifactId>
-			<version>1.0.11</version>
+			<version>1.0.12-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>cat</artifactId>
-			<version>1.0.7</version>
+			<version>1.0.8-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>sparrow</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>robin</artifactId>
-			<version>1.0.7</version>
+			<version>1.0.8-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>salmon</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>shark</artifactId>
-			<version>1.0.7</version>
+			<version>1.0.8-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>worm</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>fly</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>ant</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>grass</artifactId>
-			<version>1.0.9</version>
+			<version>1.0.10-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>berry</artifactId>
-			<version>1.0.9</version>
+			<version>1.0.10-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>tree</artifactId>
-			<version>1.0.7</version>
+			<version>1.0.8-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.barchart.test.jenkinscascade</groupId>
 			<artifactId>corn</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>
