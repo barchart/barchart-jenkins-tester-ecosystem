@@ -10,14 +10,14 @@
 	</parent>
 
 	<artifactId>worm</artifactId>
-	<version>1.0.9-SNAPSHOT</version>
+	<version>1.0.9</version>
 	<packaging>jar</packaging>
 
 	<scm>
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>master</tag>
+		<tag>worm-1.0.9</tag>
 	</scm>
 
 	<dependencies>
