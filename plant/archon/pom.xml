@@ -10,14 +10,14 @@
 	</parent>
 
 	<artifactId>plant-archon</artifactId>
-	<version>1.0.10</version>
+	<version>1.0.11-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<scm>
 		<url>https://github.com/barchart/barchart-jenkins-tester-ecosystem</url>
 		<connection>scm:git:git://github.com/barchart/barchart-jenkins-tester-ecosystem.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-jenkins-tester-ecosystem.git</developerConnection>
-		<tag>plant-archon-1.0.10</tag>
+		<tag>master</tag>
 	</scm>
 
 	<dependencies>
